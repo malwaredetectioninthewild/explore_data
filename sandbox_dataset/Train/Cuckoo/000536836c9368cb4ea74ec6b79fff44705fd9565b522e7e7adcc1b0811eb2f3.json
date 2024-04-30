@@ -1,0 +1,1 @@
+{"regs_created": [], "regs_deleted": [], "mutexes_created": ["shimcachemutex"], "processes_created": ["c:\\windows\\system32\\cmd.exe k hostname"], "files_created": ["c:\\documents_and_settings\\administrator\\local_settings\\temp\\aut3.tmp", "c:\\documents_and_settings\\administrator\\local_settings\\temp\\sidhtdq"], "processes_injected": ["cmd.exe"]}
