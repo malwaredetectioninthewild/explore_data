@@ -6,9 +6,9 @@ We provide two notebooks to explore the dataset:
 
 * **StandardizedDataFormat.ipynb**: We explain the standardized trace format that is used for our sandbox and endpoint datasets. Participants are be expected to provide detectors that can take traces in this format as input to make predictions.
 
-To request access to our data please contact: *contact information will be released when the leaderboard is officially launched*.
+To request access to our data please contact Yigitcan Kaya at **yigitcan at ucsb dot edu**
 
 Once you download the datasets, extract the **metadata.zip** to create **hash_metadata.pkl** file under the **metadata** directory; and extract **sandbox_dataset.zip** to create our sandbox training datasets under **sandbox_dataset** directory.
 
 
-**Institutions that were granted access to the dataset (sorted by request date)**
+### **Institutions that were granted access to the dataset (sorted by request date):**
