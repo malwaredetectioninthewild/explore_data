@@ -1,4 +1,4 @@
-## The documentation for the datasets and metadata released under  **[Malware Detection In the Wild Leaderboard](https://malwaredetectioninthewild.github.io/)** (SaTML 2025)
+## The documentation for the datasets and metadata released under  **[Malware Detection In the Wild Leaderboard](https://malwaredetectioninthewild.github.io/)** [See our SaTML 2025 paper](https://arxiv.org/abs/2405.06124)
 
 We prepared two datasets to release to the community, please read carefully for details and participation rules.
 
