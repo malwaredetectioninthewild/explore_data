@@ -24,7 +24,7 @@ We provide `ReadMetadata.ipynb` notebook to explore and describe the metadata fo
 
 * `MalwareITW_TrainData_Sample/Train_endpoint_metadata.json` (this is `MalwareITW_TrainData/Train_endpoint_metadata.json` for the full Train Data). This contains the metadata for the endpoint samples in the training split.
 
-##### **Full Data**
+##### **TrainAndTest Data**
 
 * `MalwareITW_TrainAndTestData_Sample/TrainAndTest_sandbox_metadata.json` (this is `MalwareITW_TrainAndTestData/TrainAndTest_sandbox_metadata.json` for the full TrainAndTest Data). This contains the metadata for all sandbox samples in our paper.
 
