@@ -4,17 +4,17 @@
 
 We prepared two datasets to release to the community, please read carefully for details and participation rules.
 
-1. **Train Data** (`MalwareITW_TrainData.zip`): This dataset includes only the sandbox traces for the samples first seen on VirusTotal before the training cut-off timestamp we used in our paper (`1522540800`, April 1st, 2018). We used this timestamp to split our training and testing sets. This dataset also includes the metadata for both sandbox and endpoint samples in the training split. **If you wish to participate in our leaderboard for realistic evaluations, you must request access to this dataset**. We are releasing a small subset of this dataset in this repository (`MalwareITW_TrainData_Sample.zip`). This sample has the same directory structure as the full Train data.
+1. **Train Data** (`MalwareITW_TrainData.zip`): This dataset includes only the sandbox traces for the samples first seen on VirusTotal before the training cut-off timestamp we used in our paper (`1522540800`, April 1st, 2018). We used this timestamp to split our training and testing sets. This dataset also includes the metadata for both sandbox and endpoint samples in the training split. **If you wish to participate in our leaderboard for realistic evaluations, you must request access to this dataset**. We are releasing a small subset of this dataset in this repository (`MalwareITW_TrainData_Sample.zip`), which has the same structure as the full Train Data.
 
 <br>
 
-2. **TrainAndTest Data** (`MalwareITW_TrainAndTestData.zip`): This dataset includes all the sandbox traces we used in our paper and the metadata for all samples (both sandbox and endpoint samples). **If granted access to this dataset, you can no longer submit to our leaderboard**. We are releasing a small subset of this dataset in this repository (`MalwareITW_TrainAndTestData_Sample.zip`). This sample has the same directory structure as the full TrainAndTest data.
+2. **TrainAndTest Data** (`MalwareITW_TrainAndTestData.zip`): This dataset includes all the sandbox traces we used in our paper and the metadata for all samples (both sandbox and endpoint samples). **If granted access to this dataset, you can no longer submit to our leaderboard**. We are releasing a small subset of this dataset in this repository (`MalwareITW_TrainAndTestData_Sample.zip`), which has the same structure as the full TrainAndTest Data.
 
 ---
 
 ### Included Files
 
-Please download and extract `MalwareITW_TrainData_Sample.zip` (or `MalwareITW_TrainData.zip`) and  `MalwareITW_TrainAndTestData_Sample.zip` (or `MalwareITW_TrainAndTestData.zip`) into the repository directory.
+Please download and extract `MalwareITW_TrainData.zip`and  `MalwareITW_TrainAndTestData.zip` into the repository directory (or their included `_Sample` versions).
 
 #### Metadata files:
 
@@ -22,15 +22,15 @@ We provide `ReadMetadata.ipynb` notebook to explore and describe the metadata fo
 
 ##### **Train Data**
 
-* `MalwareITW_TrainData_Sample/Train_sandbox_metadata.json` (this is `MalwareITW_TrainData/Train_sandbox_metadata.json` for the full Train Data). This contains the metadata for the sandbox samples in the training split.
+* `MalwareITW_TrainData/Train_sandbox_metadata.json`: Contains the metadata for the sandbox samples in the training split.
 
-* `MalwareITW_TrainData_Sample/Train_endpoint_metadata.json` (this is `MalwareITW_TrainData/Train_endpoint_metadata.json` for the full Train Data). This contains the metadata for the endpoint samples in the training split.
+* `MalwareITW_TrainData/Train_endpoint_metadata.json`: Contains the metadata for the endpoint samples in the training split.
 
 ##### **TrainAndTest Data**
 
-* `MalwareITW_TrainAndTestData_Sample/TrainAndTest_sandbox_metadata.json` (this is `MalwareITW_TrainAndTestData/TrainAndTest_sandbox_metadata.json` for the full TrainAndTest Data). This contains the metadata for all sandbox samples in our paper.
+* `MalwareITW_TrainAndTestData/TrainAndTest_sandbox_metadata.json`: Contains the metadata for all sandbox samples in our paper.
 
-* `MalwareITW_TrainAndTestData_Sample/TrainAndTest_endpoint_metadata.json` (this will be `MalwareITW_TrainAndTestData/TrainAndTest_endpoint_metadata.json` for the full TrainAndTest Data). This contains the metadata for all endpoint samples in our paper.
+* `MalwareITW_TrainAndTestData/TrainAndTest_endpoint_metadata.json`: Contains the metadata for all endpoint samples in our paper.
 
 --- 
 
@@ -44,7 +44,7 @@ We provide `StandardizedDataFormat.ipynb` notebook to explain the trace format u
 
 ##### **Train Data**
 
-`MalwareITW_TrainData_Sample\sandbox_dataset` (and the full Train Data `MalwareITW_TrainData\sandbox_dataset`) have the following directory structure:
+`MalwareITW_TrainData\sandbox_dataset` has the following directory structure:
 
 - `sandbox_dataset`
     - `Train`
@@ -55,7 +55,7 @@ We provide `StandardizedDataFormat.ipynb` notebook to explain the trace format u
 
 ##### **TrainAndTest Data**
 
-`MalwareITW_TrainAndTestData_Sample\sandbox_dataset` (and the full TrainAndTest Data `MalwareITW_TrainAndTestData\sandbox_dataset`) have the following directory structure:
+`MalwareITW_TrainAndTestData\sandbox_dataset` has the following directory structure:
 
 - `sandbox_dataset`
     - `Train`
