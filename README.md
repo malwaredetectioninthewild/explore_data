@@ -48,9 +48,9 @@ We provide `StandardizedDataFormat.ipynb` notebook to explain the trace format u
 
 - `sandbox_dataset`
     - `Train`
-        - `Habo`
+        - `Habo` (75,925 files)
             - `0d0460726570d9ff0a412ed0d4ddca87a8a3fa6c7cda1059c4477e17f17f5ff6.json` 
-        - `Cuckoo`
+        - `Cuckoo` (51,953 files)
             - `8c83ea264e7d99612ac9e28885187fad7df58e61778af8727d6bf78f43970a9b.json`
 
 ##### **TrainAndTest Data**
@@ -59,14 +59,14 @@ We provide `StandardizedDataFormat.ipynb` notebook to explain the trace format u
 
 - `sandbox_dataset`
     - `Train`
-        - `Habo`
+        - `Habo` (75,925 files)
             - `0d0460726570d9ff0a412ed0d4ddca87a8a3fa6c7cda1059c4477e17f17f5ff6.json` 
-        - `Cuckoo`
+        - `Cuckoo` (51,953 files)
             - `8c83ea264e7d99612ac9e28885187fad7df58e61778af8727d6bf78f43970a9b.json`
     - `Test`
-        - `Habo`
+        - `Habo` (57,094 files)
             - `1dbe1e28967cfe49c830cdb73ff0ac7ab4a773bbd20f1bfe031f58edd414bb57.json` 
-        - `Cuckoo`
+        - `Cuckoo` (33,684 files)
             - `7ce80babf46d0ecc30ed9b2e9292d3d3d988325bb0fdc971d867509569617a67.json`
 
 Note how the TrainAndTest Data includes another subdirectory named `Test`.
