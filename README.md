@@ -77,11 +77,19 @@ Note how the TrainAndTest Data includes another subdirectory named `Test`.
 
 To request access to our data please contact [Yigitcan Kaya](https://yigitcankaya.github.io) at **yigitcan at ucsb dot edu**
 
-Please use the subject line `MalwareITW Data Request: Train Data` or `MalwareITW Data Request: TraindAndTest Data` for your emails. Make sure to include your name and institution in the body of your email. 
+Use the subject line `MalwareITW Data Request: Train Data` or `MalwareITW Data Request: TraindAndTest Data` for your emails. Make sure to include details about yourself and your institution in the your email's body.
+
+After approval, we will reply to your email with:
+
+1) A Google Drive link to download the dataset 
+
+2) An identifier tag for your team `<team_identifier>` that you will use for leaderboard submissions ([see our Github repository for submissions](https://github.com/malwaredetectioninthewild/example_submission)).
+
+Once you download the dataset, extract the `.zip` file, to create `MalwareITW_TrainData` (or `MalwareITW_TrainAndTestData`), which include the files described in our tutorial.
 
 **If granted access to the TraindAndTest Data, you can no longer submit to our leaderboard**. This ensures that the detectors submitted to the leaderboard are realistic and obey causality (trained on samples that existed before the testing samples). Moreover, the metadata in the TraindAndTest Data also includes the endpoint samples in our testing split, on which the submitted models will be evaluated. 
 
-Once you download the dataset, extract the `.zip` file, to create `MalwareITW_TrainData` (or `MalwareITW_TrainAndTestData`). This will create the directories described in our tutorial.
+**Please do not share the dataset with others.**
 
 ---
 
